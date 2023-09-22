@@ -1,13 +1,13 @@
 ﻿Musica  musica1 = new Musica();
-musica1.nome = "Cry in The Club";
-musica1.artista = "Camila Cabello";
-musica1.duracao = 300;
+musica1.Nome = "Cry in The Club";
+musica1.Artista = "Camila Cabello";
+musica1.Duracao = 300;
 musica1.Disponivel = true;
 
 Musica musica2 = new Musica();
-musica2.nome = "Downtown";
-musica2.artista = "Anitta";
-musica1.duracao = 245;
+musica2.Nome = "Downtown";
+musica2.Artista = "Anitta";
+musica1.Duracao = 245;
 musica1.Disponivel = false;
 
 musica1.ExibirFichaTecnica();

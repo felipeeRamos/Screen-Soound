@@ -6,7 +6,8 @@ class Musica
     public string Artista { get; set; }
     public int Duracao { get; set; }
     public bool Disponivel { get; set; }
-    public String NomeCompleto { get; set; }
+    public String DescricaoResumida => 
+        $"A musica {Nome} pertence á banda {Artista}";
 
 
     public void ExibirFichaTecnica()

@@ -1,14 +1,14 @@
-﻿Musica  musica1 = new Musica();
-musica1.Nome = "Cry in The Club";
-musica1.Artista = "Camila Cabello";
-musica1.Duracao = 300;
-musica1.Disponivel = true;
+﻿Album albumCamilaCabello = new Album();
+albumCamilaCabello.Nome = "Romance";
+
+Musica musica1 = new Musica();
+musica1.Nome = "Bad Kind Of The Butterflies";
+musica1.Duracao = 250;
 
 Musica musica2 = new Musica();
-musica2.Nome = "Downtown";
-musica2.Artista = "Anitta";
-musica1.Duracao = 25;
-musica1.Disponivel = false;
+musica2.Nome = "Cry In The Club";
+musica2.Duracao = 337;
 
-musica1.ExibirFichaTecnica();
-musica2.ExibirFichaTecnica();
+albumCamilaCabello.AdicionarMusica(musica1);
+albumCamilaCabello.AdicionarMusica(musica2);
+albumCamilaCabello.ExibirMusicasDoAlbum();

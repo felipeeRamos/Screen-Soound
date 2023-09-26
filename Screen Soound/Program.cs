@@ -11,4 +11,8 @@ musica2.Duracao = 337;
 
 albumCamilaCabello.AdicionarMusica(musica1);
 albumCamilaCabello.AdicionarMusica(musica2);
-albumCamilaCabello.ExibirMusicasDoAlbum();
+
+Banda CamilaC = new Banda();
+CamilaC.Nome = "Camila Cabello";
+CamilaC.AdicionarAlbum(albumCamilaCabello);
+CamilaC.ExibirDiscografia();

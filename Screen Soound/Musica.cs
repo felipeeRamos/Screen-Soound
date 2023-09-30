@@ -1,7 +1,6 @@
-﻿using System.Reflection.Metadata;
-
-class Musica
+﻿class Musica
 {
+    private List<Genero> generos = new List<Genero>();
     public string Nome { get; set; }
     public string Artista { get; set; }
     public int Duracao { get; set; }
@@ -9,6 +8,12 @@ class Musica
     public String DescricaoResumida => 
         $"A musica {Nome} pertence á banda {Artista}";
 
+    public void AdicionarGenero(Genero genero)
+    {
+        generos.Add(genero);
+    }
+
+   
 
     public void ExibirFichaTecnica()
     {

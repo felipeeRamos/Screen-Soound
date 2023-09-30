@@ -10,10 +10,10 @@
 
     public void AdicionarGenero(Genero genero)
     {
+     
         generos.Add(genero);
     }
 
-   
 
     public void ExibirFichaTecnica()
     {

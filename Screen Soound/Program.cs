@@ -11,11 +11,15 @@ genero1.Nome = "Pop";
 musica1.AdicionarGenero(genero1);
 genero1.ExibirGenero(genero1);
 
-
-
 Musica musica2 = new Musica();
 musica2.Nome = "Cry In The Club";
 musica2.Duracao = 337;
+
+Genero genero2 = new Genero();
+genero2.Nome = "Balada";
+
+musica2.AdicionarGenero(genero2);
+musica2.AdicionarGenero(genero2);
 
 
 albumCamilaCabello.AdicionarMusica(musica1);
@@ -25,3 +29,4 @@ Banda CamilaC = new Banda();
 CamilaC.Nome = "Camila Cabello";
 CamilaC.AdicionarAlbum(albumCamilaCabello);
 CamilaC.ExibirDiscografia();
+albumCamilaCabello.ExibirMusicasDoAlbum();

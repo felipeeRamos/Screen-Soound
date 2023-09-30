@@ -10,12 +10,15 @@
         musicas.Add(musica);
     }
 
+
     public void ExibirMusicasDoAlbum()
     {
         Console.WriteLine($"Tracklist do álbum {Nome}:\n");
         foreach (var musica in musicas)
         {
+        
             Console.WriteLine($"Musica: {musica.Nome}");
+            
         }
         Console.WriteLine($"Duração total do álbum: {DuracaoTotal}");
 

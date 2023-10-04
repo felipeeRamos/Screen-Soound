@@ -1,11 +1,12 @@
 ﻿class Musica
 {
-    public Musica(Banda artista)
+    public Musica(Banda artista, string nome)
     {
         Artista = artista;
+        Nome = nome;
     }
     private List<Genero> generos = new List<Genero>();
-    public string Nome { get; set; }
+    public string Nome { get; }
     public Banda Artista { get; }
     public int Duracao { get; set; }
     public bool Disponivel { get; set; }
